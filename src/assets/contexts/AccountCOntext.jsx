@@ -1,9 +1,9 @@
 import React from 'react'
 
-const AccountCOntext = () => {
+const AccountContext = () => {
   return (
     <div>AccountCOntext</div>
   )
 }
 
-export default AccountCOntext
+export default AccountContext
