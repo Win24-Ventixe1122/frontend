@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--footer-background-color);
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  color: var(--gray-70);
+}
+
+.footer-left {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-left a {
+  text-decoration: none;
+  color: var(--gray-60);
+  transition: color 0.2s;
+}
+
+.footer-left a:hover {
+  color: var(--gray-90);
+}
+
+.footer-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-right i {
+  font-size: 1rem;
+  color: var(--gray-60);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-right i:hover {
+  color: var(--primary-100);
+}
