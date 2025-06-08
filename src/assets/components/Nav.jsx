@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
-import logo from '../Pictures/ventrixe-logo.svg';
 
 export default function Nav() {
   return (
