@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <nav className="sidebar">
       <div className="logo">
-        <img src={logo} alt="Ventrixe Logo" className="logo-img" />
+        <img alt="Ventrixe Logo" className="logo-img" />
         <span className="logo-text">Ventrixe</span>
       </div>
 
